@@ -1,9 +1,6 @@
-import "./globals.css";
-
 export const metadata = {
-  title: "DataCore Alliance LLC",
-  description:
-    "Connecting Contractors. Building the Future. DataCore Alliance connects construction partners to mission-critical data center opportunities.",
+  title: "DataCore Alliance",
+  description: "Industrial and data center construction services",
 };
 
 export default function RootLayout({ children }) {
