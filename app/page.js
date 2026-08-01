@@ -1,0 +1,53 @@
+export default function Home() {
+  return (
+    <main>
+
+      <section className="hero">
+        <h1>
+          DataCore Alliance
+        </h1>
+
+        <h2>
+          Connecting Contractors. Building the Future.
+        </h2>
+
+        <p>
+          A contractor network built to pursue and deliver
+          next-generation data center infrastructure projects.
+        </p>
+
+        <button>
+          Join The Alliance
+        </button>
+
+      </section>
+
+
+      <section>
+        <h2>
+          One Network. Unlimited Capability.
+        </h2>
+
+        <p>
+          We unite general contractors, specialty trades,
+          suppliers, and industry partners to compete for
+          large-scale mission-critical projects.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>
+          Opportunity Intelligence Hub
+        </h2>
+
+        <p>
+          Coming Soon: A centralized platform tracking
+          data center projects, bid opportunities,
+          market growth, and contractor opportunities.
+        </p>
+      </section>
+
+    </main>
+  );
+            }
