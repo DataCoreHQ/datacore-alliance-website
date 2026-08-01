@@ -1,53 +1,12 @@
-export default function Home() {
+export const metadata = {
+  title: "DataCore Alliance",
+  description: "Data center construction and industrial services",
+};
+
+export default function RootLayout({ children }) {
   return (
-    <main>
-
-      <section className="hero">
-        <h1>
-          DataCore Alliance
-        </h1>
-
-        <h2>
-          Connecting Contractors. Building the Future.
-        </h2>
-
-        <p>
-          A contractor network built to pursue and deliver
-          next-generation data center infrastructure projects.
-        </p>
-
-        <button>
-          Join The Alliance
-        </button>
-
-      </section>
-
-
-      <section>
-        <h2>
-          One Network. Unlimited Capability.
-        </h2>
-
-        <p>
-          We unite general contractors, specialty trades,
-          suppliers, and industry partners to compete for
-          large-scale mission-critical projects.
-        </p>
-      </section>
-
-
-      <section>
-        <h2>
-          Opportunity Intelligence Hub
-        </h2>
-
-        <p>
-          Coming Soon: A centralized platform tracking
-          data center projects, bid opportunities,
-          market growth, and contractor opportunities.
-        </p>
-      </section>
-
-    </main>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
-            }
+}
